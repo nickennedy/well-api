@@ -26,3 +26,7 @@ mongoose.connection.on('error', (err) => {
 module.exports = {
     WellData: require('./WellData')
 }
+
+// mongodb+srv://nickennedy:<password>@sei-cluster-0.pluqg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+// https://well-monitor-api.herokuapp.com/
