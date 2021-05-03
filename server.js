@@ -9,11 +9,8 @@ app.use(express.json())
 app.use(cors())
 
 // Routes
-app.get('/', (req,res) => {
-    res.send("Tim's Well Monitor")
-})
 
-app.use('/api/data', routes.data)
+app.use('/', routes.data)
 
 // Listen on port
 app.listen(PORT, () => {
