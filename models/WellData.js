@@ -5,18 +5,13 @@ const wellDataSchema = new mongoose.Schema(
         name: {type: String},
         data: {
             data:{
-                    gpm: {type: Number},
-                    count: {type: Number}
+                    gpm: {type: String},
+                    count: {type: String}
                 }
             },
         ttl: {type: Number},
         published_at: {type: String},
         coreid: {type: String},
-        userid: {type: String},
-        version: {type: Number},
-        public: {type: Boolean},
-        productID: {type: Number}
-    
     }
 
 
